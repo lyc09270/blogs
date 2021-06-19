@@ -1,0 +1,213 @@
+﻿{% extends "blog/base.html" %}
+{% load staticfiles %}
+{% load blog_extras %}
+{% block  "content" %}
+{% load comments_extras %}
+	<div class="theme-banner-section-one section-margin-bottom">
+		<!-- MasterSlider -->
+		<div id="P_masterslider" class="master-slider-parent ms-panorama ms-parent-id-30" >
+			<!-- MasterSlider Main -->
+			<div id="main-slider-one" class="master-slider ms-skin-default" >
+				<div class="ms-slide" data-delay="25" data-fill-mode="fill" >
+					<img class="ms-layer"
+						 src="{% static 'blog/images/blank.gif' %}"
+						 data-src="{% static 'blog/images/home/panaroma1.jpg' %}"
+						 alt=""
+						 style=""
+						 data-effect="t(false,850,n,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="30200"
+						 data-ease="linear"
+						 data-parallax="6"
+						 data-type="image"
+						 data-offset-x="-519"
+						 data-offset-y="-1"
+						 data-origin="mc"
+						 data-position="normal" />
+					<div class="ms-layer main-heading"
+						 style=""
+						 data-effect="t(true,n,20,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="3000"
+						 data-delay="400"
+						 data-ease="easeOutQuint"
+						 data-parallax="60"
+						 data-offset-x="115"
+						 data-offset-y="-95"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="auto">CAMPING</div>
+					<div class="ms-layer author-layer"
+						 style=""
+						 data-effect="t(true,n,50,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="1500"
+						 data-ease="easeOutQuint"
+						 data-parallax="120"
+						 data-offset-x="120"
+						 data-offset-y="-33"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="666">Stone Meadow</div>
+					<div class="ms-layer main-text"
+						 style=""
+						 data-effect="t(true,n,50,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="2500"
+						 data-ease="easeOutQuint"
+						 data-parallax="120"
+						 data-offset-x="120"
+						 data-offset-y="35"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="450">The group launched a campaign to protect the area from commercial development.</div>
+					<div class="ms-layer read-more"
+						 style=""
+						 data-effect="t(true,n,n,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="3500"
+						 data-ease="easeOutQuint"
+						 data-parallax="80"
+						 data-offset-x="120"
+						 data-offset-y="90"
+						 data-origin="ml"
+						 data-position="normal" ><a href="#">Read More</a></div>
+				</div>
+				<div class="ms-slide" data-delay="25" data-fill-mode="fill" >
+					<img class="ms-layer"
+						 src="{% static 'blog/images/blank.gif' %}"
+						 data-src="{% static 'blog/images/home/panaroma2.jpg' %}"
+						 alt=""
+						 style=""
+						 data-effect="t(false,850,n,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="30000"
+						 data-ease="linear"
+						 data-parallax="6"
+						 data-type="image"
+						 data-offset-x="-630"
+						 data-offset-y="0"
+						 data-origin="mc"
+						 data-position="normal" />
+					<div class="ms-layer main-heading"
+						 style=""
+						 data-effect="t(true,n,20,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="3000"
+						 data-delay="400"
+						 data-ease="easeOutQuint"
+						 data-parallax="60"
+						 data-offset-x="115"
+						 data-offset-y="-95"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="auto">TREKKING</div>
+					<div class="ms-layer author-layer"
+						 style=""
+						 data-effect="t(true,n,50,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="1500"
+						 data-ease="easeOutQuint"
+						 data-parallax="120"
+						 data-offset-x="120"
+						 data-offset-y="-33"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="666">David Kemeron</div>
+					<div class="ms-layer main-text"
+						 style=""
+						 data-effect="t(true,n,50,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="2500"
+						 data-ease="easeOutQuint"
+						 data-parallax="120"
+						 data-offset-x="120"
+						 data-offset-y="35"
+						 data-origin="ml"
+						 data-position="normal"
+						 data-masked="true"
+						 data-mask-width="450">Trekking is walking for long distances as well, though unlike hiking it is always a multi-day affair.</div>
+					<div class="ms-layer read-more"
+						 style=""
+						 data-effect="t(true,n,n,n,n,n,n,n,n,n,n,n,n,n,n)"
+						 data-duration="5000"
+						 data-delay="3500"
+						 data-ease="easeOutQuint"
+						 data-parallax="80"
+						 data-offset-x="120"
+						 data-offset-y="90"
+						 data-origin="ml"
+						 data-position="normal" ><a href="#">Read More</a></div>
+				</div>
+			</div> <!-- /#main-slider-one -->
+		</div>
+	</div> <!-- /.theme-banner-section-one -->
+	
+	
+	
+	<!-- 
+	=============================================
+		Main Blog Post Wrapper
+	============================================== 
+	-->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-12 blog-grid-style hover-effect-one">
+				<article class="post post-{{ post.pk }}">
+				<div class="single-blog-post">
+					<div class="image-box"><img src="{% static 'blog/images/blog/1.jpg' %}" alt=""></div>
+					<div class="post-meta-box bg-box">
+						<ul class="author-meta clearfix">
+							<li class="tag"><a href="#">{{ post.category.name }}</a></li>
+							<li class=""><a href="#">作者：{{ post.author }}</a></li>
+							<li class="date"><a href="#">{{ post.create_time }}</a></li>
+
+						</ul>
+						<h4 class="title"><a href="#">{{ post.title }}</a></h4>
+						<ul class="share-meta clearfix">
+							<li><a href="{{ post.get_absolute_url }}#comment_area"><i class="icon flaticon-comment">
+							</i>评论 ({{ post.comment_set.count }})</a></li>
+							<li><a href="{{ post.get_absolute_url }}"><i class="icon flaticon-like-heart"></i>浏览 ({{ post.views }})</a>
+							<li class="share-option">
+								<button><i class="icon flaticon-arrows"></i> 分享</button>
+								<ul class="share-icon">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+							</li> <!-- /.share-option -->
+						</ul>
+						<div class="entry-content clearfix">
+    {{ post.body_html|safe }}
+</div>
+
+					</div> <!-- /.post-meta-box -->
+				</div> <!-- /.single-blog-post -->
+					</article>
+				<section class="comment-area" id="comment-area"> <hr>
+				<h3>发表评论</h3>
+					</section>
+				{% show_comment_form post %}
+				<div class="comment-list-panel">
+					{% show_comments post %}
+				</div>
+
+				<!--<div class="theme-pagination text-center">
+					<ul class="clearfix">
+						<li><a href="#"><i class="icon flaticon-left-arrow"></i></a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#"><i class="icon flaticon-right-arrow"></i></a></li>
+					</ul>
+				</div> <!-- /.theme-pagination -->
+			</div> <!-- /.col- -->
+			{% endblock %}
+			<!-- ======================== Theme Sidebar =============================== -->
+
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+
+
